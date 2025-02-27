@@ -269,6 +269,7 @@ window.addEventListener("storage", function (event) {
 
 
 
+
 function sortAndDisplayScores() {
     let scoreTable = document.querySelector(".scoreboard tbody");
     

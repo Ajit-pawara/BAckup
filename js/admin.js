@@ -289,3 +289,8 @@ function sortAndDisplayScores() {
 
 // Call function after updating scores dynamically
 sortAndDisplayScores();
+
+
+
+
+

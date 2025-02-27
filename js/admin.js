@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // ✅ Function to update scores and sync in real-time
 function updateScore(branch, value) {
     let storedScores = JSON.parse(localStorage.getItem("gcScores")) || {
-        IT: 0, ENTC: 0, Civil: 0, Mechanical: 0, Electrical: 0
+        IT: 106, ENTC: 159, Civil: 178, Mechanical: 126, Electrical: 82
     };
 
     let newScore = Math.max(parseInt(storedScores[branch] || 0) + value, 0);

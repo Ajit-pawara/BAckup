@@ -269,7 +269,6 @@ window.addEventListener("storage", function (event) {
 
 
 
-
 function sortAndDisplayScores() {
     let scoreTable = document.querySelector(".scoreboard tbody");
     
@@ -290,8 +289,3 @@ function sortAndDisplayScores() {
 
 // Call function after updating scores dynamically
 sortAndDisplayScores();
-
-
-
-
-

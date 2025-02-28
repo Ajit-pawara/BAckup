@@ -580,3 +580,78 @@ body {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Social Icons Container */
+.social-container {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  z-index: 1000;
+}
+
+/* Social Icons */
+.social-link ion-icon {
+  font-size: 28px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6); /* Adds slight background for visibility */
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.social-link ion-icon:hover {
+  color: #00ff00;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .social-container {
+    bottom: 10px;
+    gap: 10px;
+  }
+  .social-link ion-icon {
+    font-size: 24px;
+    padding: 8px;
+  }
+}
+
